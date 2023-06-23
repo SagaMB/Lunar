@@ -1,10 +1,10 @@
 # Commands Used:
-npm install -g create-react-app appName - To create app.<br>
-npx create-react-app appName            - Alternative way to create app.<br>
+<b>npm install -g create-react-app appName</b> - To create app.<br>
+<b>npx create-react-app appName</b>            - Alternative way to create app.<br>
 
-npm install react-router-dom sass       - Router packages to link pages.<br>
-npm install react-router-hash-link      - HashLink packages to scroll direct to section.<br>
-npm install react-responsive-carousel   - Carousel packages to add slider effect.<br>
+<b>npm install react-router-dom sass</b>       - Router packages to link pages.<br>
+<b>npm install react-router-hash-link</b>      - HashLink packages to scroll direct to section.<br>
+<b>npm install react-responsive-carousel</b>   - Carousel packages to add slider effect.<br>
 
 # Getting Started with Create React App
 
