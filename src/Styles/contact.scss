@@ -1,0 +1,72 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: no-repeat center/auto url("../Resources/sky.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > main{
+        background-color: rgb(250, 250, 250);
+        height: 80%;
+        width: 70%;
+        padding: 3rem;
+        border-radius:  0px 200px 0 0px ;
+
+        > h1{
+            border-bottom: 2px solid red;
+            width: 18%;
+        }
+    
+        > form{
+            margin: 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            > div{
+                height: 3rem;
+                display: flex;
+                align-items: center;
+                justify-self: flex-end;
+                width: 60%;
+                margin: 0.5rem;
+
+                > label{
+                    font: 400 1.2rem "cursive" ;
+                    width: 20%;
+                    margin: 0.1rem;
+                    
+                }
+
+                > input{
+                    align-self: stretch;
+                    width: 80%;
+                    padding: 1rem;
+                    border-radius: 5px;
+                    border: 1px solid gray;
+                    outline: none;
+                    font: 200 1rem "cursive" ;
+                }
+            }
+            > button{
+                margin: 1.2rem 0;
+                padding: 0.7rem;
+                border: none;
+                border-radius: 5px;
+                background-color: rgb(27, 36, 208);
+                color: white;
+                width: 340px;
+                font: 400 1rem "cursive";
+                // font-family: 'Courier New', Courier, monospace;
+
+                &:hover{
+                    opacity: 0.9 ;
+                }
+            }
+        }
+    }
+
+
+}
